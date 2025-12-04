@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>MGE Production — Static Preview</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+      body { -webkit-font-smoothing:antialiased; -moz-osx-font-smoothing:grayscale; }
+      .logo-font { font-family: 'DIN Condensed', system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; }
+    </style>
+  </head>
+  <body class="bg-white text-gray-900">
+    <header class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-gray-200">
+      <div class="max-w-6xl mx-auto px-6 py-4 flex items-center justify-between">
+        <a href="#home" class="flex items-center gap-3">
+          <div class="w-16 h-16 bg-gradient-to-tr from-indigo-600 to-rose-500 rounded-lg flex items-center justify-center shadow-xl">
+            <span class="text-white text-4xl font-bold logo-font">MGE</span>
+          </div>
+          <div>
+            <div class="text-3xl font-extrabold leading-none logo-font">MGE Production</div>
+            <div class="text-xs text-gray-600 mt-1">Vidéo • Photo • Post-production</div>
+          </div>
+        </a>
+
+        <nav class="hidden md:flex items-center gap-6 text-sm">
+          <a href="#services" class="hover:text-indigo-600">Prestations</a>
+          <a href="#portfolio" class="hover:text-indigo-600">Portfolio</a>
+          <a href="#about" class="hover:text-indigo-600">À propos</a>
+          <a href="#contact" class="hover:text-indigo-600">Contact</a>
+        </nav>
+
+        <div class="flex items-center gap-4">
+          <a href="mailto:MaxenceMGEProd@gmail.com" class="hidden md:inline-block text-sm text-gray-700 underline">MaxenceMGEProd@gmail.com</a>
+          <button class="md:hidden p-2 rounded bg-gray-100">☰</button>
+          <a href="tel:+33775111873" class="inline-flex items-center gap-3 bg-black text-white px-5 py-3 rounded-2xl font-semibold shadow-lg">☎ 07 75 11 18 73</a>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <section id="home" class="bg-gradient-to-b from-white to-gray-100">
+        <div class="max-w-6xl mx-auto px-6 py-24 grid md:grid-cols-2 gap-14 items-center">
+          <div>
+            <h1 class="text-6xl font-extrabold tracking-tight logo-font">MGE Production</h1>
+            <p class="mt-6 text-gray-700 max-w-xl">Freelance en production audiovisuelle : réalisation vidéo, shooting photo professionnel, montage, étalonnage et post-production complète.</p>
+            <div class="mt-8 flex gap-4"><a href="#portfolio" class="inline-flex items-center gap-3 bg-black text-white px-5 py-3 rounded-2xl font-semibold shadow-lg">Voir le portfolio</a></div>
+          </div>
+          <div class="rounded-2xl overflow-hidden shadow-2xl bg-black">
+            <div class="w-full h-[420px] bg-cover bg-center" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop')"></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="services" class="max-w-6xl mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold">Prestations</h2>
+        <p class="mt-2 text-gray-600 max-w-2xl">Voici ce que je propose :</p>
+        <div class="mt-10 grid md:grid-cols-3 gap-8">
+          <div class="p-6 bg-white rounded-2xl shadow-sm border border-gray-200">
+            <div class="flex items-center gap-3 text-indigo-600 mb-3"><strong class="text-lg">🎞️</strong><h3 class="font-semibold text-lg">Production vidéo</h3></div>
+            <ul class="text-gray-600 text-sm space-y-1"><li>• Tournage multicaméra</li><li>• Clips, pubs, fiction</li><li>• Direction photo</li></ul>
+          </div>
+          <div class="p-6 bg-white rounded-2xl shadow-sm border border-gray-200">
+            <div class="flex items-center gap-3 text-indigo-600 mb-3"><strong class="text-lg">📷</strong><h3 class="font-semibold text-lg">Photographie</h3></div>
+            <ul class="text-gray-600 text-sm space-y-1"><li>• Portraits</li><li>• Événements</li><li>• Photos produits</li></ul>
+          </div>
+          <div class="p-6 bg-white rounded-2xl shadow-sm border border-gray-200">
+            <div class="flex items-center gap-3 text-indigo-600 mb-3"><strong class="text-lg">🖼️</strong><h3 class="font-semibold text-lg">Post-production</h3></div>
+            <ul class="text-gray-600 text-sm space-y-1"><li>• Montage</li><li>• Étalonnage</li><li>• Mixage audio</li></ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="portfolio" class="bg-gray-100 py-20">
+        <div class="max-w-6xl mx-auto px-6">
+          <h2 class="text-3xl font-bold">Portfolio</h2>
+          <p class="text-gray-600 mt-2">Tu pourras bientôt m’envoyer tes photos à intégrer ici.</p>
+          <div class="grid md:grid-cols-3 gap-6 mt-10">
+            <div class="rounded-xl overflow-hidden shadow-md bg-white"><div class="h-48 bg-cover bg-center" style="background-image:url('https://images.unsplash.com/photo-1526170375885-4d8ecf77b99f')"></div><div class="p-4 text-sm font-medium text-gray-700">Projet vidéo (exemple)</div></div>
+            <div class="rounded-xl overflow-hidden shadow-md bg-white"><div class="h-48 bg-cover bg-center" style="background-image:url('https://images.unsplash.com/photo-1504203700686-0f42508f06c5')"></div><div class="p-4 text-sm font-medium text-gray-700">Photographie (exemple)</div></div>
+            <div class="rounded-xl overflow-hidden shadow-md bg-white"><div class="h-48 bg-cover bg-center" style="background-image:url('https://images.unsplash.com/photo-1516035069371-29a1b244cc32')"></div><div class="p-4 text-sm font-medium text-gray-700">Tournage (exemple)</div></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="max-w-6xl mx-auto px-6 py-20">
+        <h2 class="text-3xl font-bold mb-6">Contact</h2>
+        <form class="max-w-2xl space-y-4">
+          <input class="w-full p-3 border rounded" type="text" name="nom" placeholder="Nom" />
+          <input class="w-full p-3 border rounded" type="text" name="prenom" placeholder="Prénom" />
+          <input class="w-full p-3 border rounded" type="tel" name="telephone" placeholder="Numéro de téléphone" />
+          <input class="w-full p-3 border rounded" type="text" name="objet" placeholder="Objet de la demande" />
+          <input class="w-full p-3 border rounded" type="file" name="fichier" />
+          <button type="button" class="bg-indigo-600 text-white px-6 py-3 rounded-lg font-semibold">Envoyer</button>
+        </form>
+      </section>
+
+      <footer class="bg-black text-white py-10 mt-20">
+        <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row justify-between items-center">
+          <div class="text-lg logo-font">MGE Production</div>
+          <div class="flex flex-col items-center md:items-end mt-4 md:mt-0 text-sm text-gray-300">
+            <a href="mailto:MaxenceMGEProd@gmail.com" class="underline">MaxenceMGEProd@gmail.com</a>
+            <a href="tel:+33775111873" class="mt-1">07 75 11 18 73</a>
+          </div>
+        </div>
+      </footer>
+    </main>
+  </body>
+</html>
